@@ -1,6 +1,6 @@
 import streamlit as st
 from apps import line_app, grid_app
-St.set_page_config(page_title="GRIDDING - PROFILING VIEW")
+st.set_page_config(page_title="GRIDDING - PROFILING VIEW")
 # -----------------------------
 # Custom CSS for Styling
 # -----------------------------
@@ -73,5 +73,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
